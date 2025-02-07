@@ -30,4 +30,4 @@ jobs:
           server-ssh-port:  ${{ secrets.SERVER_SSH_PORT }}
           server-ssh-secret-key:  ${{ secrets.SERVER_SSH_SECRET_KEY }}
           server-ssh-user:  ${{ secrets.SERVER_SSH_USER }}
-          command: ${{ env.COMMAND }}
+          command: ${{ vars.COMMAND }}
